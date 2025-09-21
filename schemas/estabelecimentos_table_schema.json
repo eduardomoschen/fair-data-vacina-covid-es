@@ -1,0 +1,84 @@
+{
+  "profile": "table-schema",
+  "name": "estabelecimentos-saude-es",
+  "title": "Estabelecimentos de Saúde do Espírito Santo",
+  "description": "Schema da tabela contendo os estabelecimentos de saúde do estado do Espírito Santo, enriquecida com dados para análise da vacinação contra a COVID-19.",
+  "fields": [
+    {
+      "name": "CD_ESTABELECIMENTO",
+      "type": "integer",
+      "format": "default",
+      "description": "Código de identificação único do estabelecimento, conforme o Cadastro Nacional de Estabelecimentos de Saúde (CNES).",
+      "constraints": {
+        "required": true,
+        "unique": true
+      }
+    },
+    {
+      "name": "DSC_RAZAO_SOCIAL",
+      "type": "string",
+      "description": "Nome oficial do estabelecimento registrado no CNPJ.",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "NM_FANTASIA",
+      "type": "string",
+      "description": "Nome popular ou comercial do estabelecimento, usado no dia a dia.",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "CD_MUNICIPIO",
+      "type": "string",
+      "description": "Código oficial do IBGE de 7 dígitos para o município onde o estabelecimento está localizado.",
+      "constraints": {
+        "required": true,
+        "pattern": "^[0-9]{7}$"
+      }
+    },
+    {
+      "name": "TP_ESTABELECIMENTO",
+      "type": "string",
+      "description": "Tipo de estabelecimento classificado segundo um vocabulário controlado.",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Unidade de Saúde da Família",
+          "Hospital",
+          "Unidade de Saúde",
+          "Unidade Básica de Saúde",
+          "Outros",
+          "Pronto Atendimento",
+          "Centro de Imunização",
+          "Policlínica",
+          "Centro de Referência",
+          "Centro de Atenção Psicossocial",
+          "Maternidade",
+          "Centro de Especialidades Odontológicas",
+          "Rede de Frio / Armazenamento de Imunobiológicos",
+          "Consultório na Rua",
+          "Unidade Sanitária",
+          "Secretaria de Saúde",
+          "Superintendência Regional de Saúde",
+          "Hemocentro",
+          "Vigilância em Saúde",
+          "Farmácia",
+          "Clínica"
+        ]
+      }
+    },
+    {
+      "name": "URI_MUNICIPIO",
+      "type": "string",
+      "format": "uri",
+      "description": "URI (Identificador Uniforme de Recurso) padronizado para o município, conectando o dado a um identificador web persistente do IBGE.",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "primaryKey": ["CD_ESTABELECIMENTO"]
+}

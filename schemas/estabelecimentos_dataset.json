@@ -1,0 +1,34 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "dm_estabelecimentos",
+    "description": "Cadastro de estabelecimentos com referência ao município de localização.",
+    "version": "1.0",
+    "license": "CC-BY-4.0",
+    "variableMeasured": [
+      {
+        "name": "CD_ESTABELECIMENTO",
+        "description": "Código único do estabelecimento",
+        "datatype": "integer",
+        "role": "PK",
+        "schema": "schema:identifier"
+      },
+      {
+        "name": "DSC_RAZAO_SOCIAL",
+        "description": "Razão social do estabelecimento",
+        "datatype": "string",
+        "schema": "schema:legalName"
+      },
+      {
+        "name": "NM_FANTASIA",
+        "description": "Nome fantasia do estabelecimento",
+        "datatype": "string",
+        "schema": "schema:name"
+      },
+      {
+        "name": "CD_MUNICIPIO",
+        "description": "Código correspondente ao município do Espiríto Santo",
+        "datatype": "integer"
+      }
+    ]
+  }
