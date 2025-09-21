@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "version": "1.0.0",
+  "name": "Conjunto de Dados FAIR de Estabelecimentos de Saúde do Espírito Santo",
+  "description": "Este conjunto de dados lista os estabelecimentos de saúde no estado do Espírito Santo, Brasil, com foco na infraestrutura de vacinação contra a COVID-19. Os dados foram limpos e enriquecidos com identificadores persistentes para os municípios (URIs do IBGE) e um vocabulário controlado para os tipos de estabelecimento, seguindo os princípios FAIR.",
+  "keywords": [
+    "Saúde",
+    "COVID-19",
+    "Vacinação",
+    "Espírito Santo",
+    "Brasil",
+    "FAIR Data",
+    "Ciência de Dados",
+    "Dados Abertos"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/eduardomoschen/fair-data-vacina-covid-es/",
+  "sameAs": "URL-DO-DOI-QUANDO-TIVER",
+  "datePublished": "DATA-DE-PUBLICAÇÃO-DO-DADO",
+  "dateModified": "2025-07-24",
+  "creator": {
+    "@type": "Person",
+    "name": "Eduardo Nandorf Moschen",
+    "alternateName": "Eduardo Moschen",
+    "identifier": "SEU-NUMERO-ORCID-SE-TIVER"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Universidade Federal do Espírito Santo"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "CSV",
+      "contentUrl": "https://raw.githubusercontent.com/eduardomoschen/fair-data-vacina-covid-es/main/estabelecimentos_final.csv"
+    }
+  ],
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-41.87 -21.30 -39.64 -17.89"
+    },
+    "name": "Espírito Santo, Brasil"
+  }
+}
