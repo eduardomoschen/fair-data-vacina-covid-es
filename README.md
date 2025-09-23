@@ -9,12 +9,12 @@ seguindo os princípios FAIR.
 
 Para facilitar o uso e a compreensão destes dados, a documentação foi organizada nos seguintes arquivos:
 
-* **[Dicionário de Dados]():** Descreve cada coluna, seu tipo e regras.
-* **[Guia de Uso e Análise]():** Exemplos de como carregar e consultar os dados.
-* **[Relatório de Qualidade]():** Métricas sobre a qualidade e integridade dos dados.
-* **[Proveniência dos Dados]():** Detalha a origem e o processo de transformação dos dados.
-* **[Como Contribuir]():** Diretrizes para quem deseja colaborar com o projeto.
-* **[Histórico de Versões]():** Acompanhe todas as mudanças feitas no projeto.
+* **[Dicionário de Dados](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/DICIONARIO_DE_DADOS.md):** Descreve cada coluna, seu tipo e regras.
+* **[Guia de Uso e Análise](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/GUIA_DE_USO.md):** Exemplos de como carregar e consultar os dados.
+* **[Relatório de Qualidade](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/QUALIDADE_DOS_DADOS.md):** Métricas sobre a qualidade e integridade dos dados.
+* **[Proveniência dos Dados](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/PROVENIENCIA.md):** Detalha a origem e o processo de transformação dos dados.
+* **[Como Contribuir](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/CONTRIBUINDO.md):** Diretrizes para quem deseja colaborar com o projeto.
+* **[Histórico de Versões](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/CHANGELOG.md):** Acompanhe todas as mudanças feitas no projeto.
 
 ## Licença
 
