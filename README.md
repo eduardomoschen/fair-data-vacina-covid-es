@@ -15,6 +15,7 @@ Para facilitar o uso e a compreensão destes dados, a documentação foi organiz
 * **[Proveniência dos Dados](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/PROVENIENCIA.md):** Detalha a origem e o processo de transformação dos dados.
 * **[Como Contribuir](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/CONTRIBUINDO.md):** Diretrizes para quem deseja colaborar com o projeto.
 * **[Histórico de Versões](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/CHANGELOG.md):** Acompanhe todas as mudanças feitas no projeto.
+* **[Referências Bibliográficas](https://github.com/eduardomoschen/fair-data-vacina-covid-es/blob/master/documentation/REFERENCES.md):** Referências bibliográficas usadas durante o estudo.
 
 ## Licença
 
